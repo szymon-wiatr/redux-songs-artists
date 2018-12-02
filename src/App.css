@@ -1,0 +1,83 @@
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 5vmin;
+  float: right;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+button.add-artist {
+  background: #202327;
+  padding: 2px 8px 2px 8px;
+  margin-left: 3px;
+  color: white;
+}
+
+button.add-artist:hover {
+  cursor: pointer;
+}
+
+.ui.segment, .video-item {
+  background: #0d1432;
+  color: #a79b87;
+}
+
+.ui.segment, .artists > code {
+  font-size: 12px;
+}
+
+.ui.segment.artists {
+  color: #fff;
+  font-size: 16px;
+}
+
+.ui.segment.artists form {
+  margin-top: 10px;
+}
+
+.ui.list > .item .header {
+  color: #fff;
+  font-weight: normal;
+}
+
+.ui.form .field > label {
+  color: #fff;
+}
+
+h4.ui.header {
+  color: #fff;
+}
+
+.favorite-artists > li:hover {
+  cursor: pointer;
+  color:  #a79b87;
+}
+
+.favorite-artists > li.superliked::before { 
+  content: "👍";
+}
+
+.favorite-artists > li .remove-artist {
+  font-size: 12px
+}
+
+.favorite-artists > li .remove-artist:hover {
+  font-size: 14px;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
